@@ -42,7 +42,13 @@ const Footer = () => {
                 </div>
                 
             </div>
-          
+            <div className='flex justify-between container mx-auto px-8 pt-10 pb-2.5'>
+                    <p>© 2026 Dev Stack. All rights reserved.</p>
+                    <ul className='flex gap-3'>
+                        <li>Privacy</li>
+                        <li>Terms</li>
+                    </ul>
+                </div>
         </footer>
         </div>
     );
