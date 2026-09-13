@@ -3,7 +3,7 @@ import Herologo from "../assets/banner-stack.png"
 
 const Banner = () => {
   return (
-    <div className="flex justify-between mt-10 container mx-auto px-8">
+    <div className="flex justify-between mt-[80px] container mx-auto px-8">
       <div>
         <h1 className="text-4xl font-bold ">Build Your Ideal <br />
              <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent">Development Stack</span></h1>
@@ -11,9 +11,9 @@ const Banner = () => {
           Explore frontend, backend, database, and tooling options, <br /> compare them
           side by side, and put together the stack that fits your next project.
         </p>
-       <div className="mt-9">
-         <button className="bg-[#F35E58] p-3 mr-2.5">Explore Technologies</button>
-        <button>Learn More</button>
+       <div className="mt-12 ">
+         <button className="bg-[#F35E58] p-2.5 mr-2.5 rounded-2xl text-white">Explore Technologies</button>
+        <button className=" p-2.5 mr-3 border border-[#f3e8e8] rounded-2xl  ">Learn More </button>
        </div>
 
       </div>
