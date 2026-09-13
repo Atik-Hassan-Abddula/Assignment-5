@@ -40,7 +40,9 @@ const Footer = () => {
                         <li>Terms of Service</li>
                     </ul>
                 </div>
+                
             </div>
+          
         </footer>
         </div>
     );

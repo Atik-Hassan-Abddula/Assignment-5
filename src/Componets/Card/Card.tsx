@@ -53,7 +53,7 @@ export default function Card({ card,handelcounter  }: CardProps) {
                 </div>
                 {/* Button */}
                 <button onClick={handeladdcard} className="w-full mt-5 bg-black text-white py-2 rounded-lg hover:bg-gray-500">
-                   {addcard? "Add to Card":"Add to Stock"}
+                   {addcard? " ✅Add to Stock":"Add to Stock"}
                 </button>
 
             </div>
