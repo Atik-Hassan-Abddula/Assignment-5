@@ -3,14 +3,16 @@ import type { CardType } from "../../CardType"
 
 export interface CardProps {
     card: CardType
+    handelcounter :(count:CardType)=> void
 }
 
-export default function Card({ card }: CardProps) {
+export default function Card({ card,handelcounter  }: CardProps) {
 
     const [addcard,setAddcart]=useState <Boolean>(false)
 
     const handeladdcard=()=>{
            setAddcart(!addcard)
+           handelcounter(card)
     }
     
 
