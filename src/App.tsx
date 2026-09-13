@@ -3,6 +3,8 @@ import Banner from "./Componets/Banner"
 import Navbar from "./Componets/Navbar"
 import Cards from "./Componets/Cards/Cards"
 import type { CardType } from "./CardType"
+import Footer from "./Componets/Cards/Footer"
+
 
 const cardpromise = async():Promise <CardType[]>=>{
   const res = await fetch('../public/data.json')
@@ -19,11 +21,12 @@ function App() {
     <>
     <Navbar></Navbar>
     <Banner></Banner>
+    
     <Suspense fallback={<h3>Loading.....</h3>}>
     
     <Cards cardpromise={cardpromise()}></Cards>
     </Suspense>
-    
+  <Footer></Footer>
     </>
   )
 }

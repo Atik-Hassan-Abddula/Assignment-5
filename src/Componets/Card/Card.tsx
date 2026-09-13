@@ -18,7 +18,7 @@ export default function Card({ card,handelcounter  }: CardProps) {
 
     return (
         
-        <div className="container mx-auto px-4 flex">
+        <div className="container mx-auto px-8 flex">
            {
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
                 {/* {Icon + Badge} */}
